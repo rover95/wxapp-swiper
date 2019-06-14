@@ -1,4 +1,4 @@
-<swiper indicator-dots="true" autoplay="{{false}}" interval="3000" indicator-dots="{{false}}" indicator-color='#8a8a8a' indicator-active-color='#333' circular="true" class="swiper-block" bindchange="swiperChange" previous-margin="100rpx" next-margin="100rpx" current="0">
+<swiper indicator-dots="true" autoplay="{{false}}" interval="5000" indicator-dots="{{false}}" indicator-color='#8a8a8a' indicator-active-color='#333' circular="true" class="swiper-block" bindchange="swiperChange" previous-margin="100rpx" next-margin="100rpx" current="0">
   <block wx:for="{{imgUrls}}" wx:index="{{index}}">
     <swiper-item class="swiper-item ">
       <image mode="aspectFill" src="{{item}}" class="slide-image {{currentIndex == index ? 'active' : 'common'}}" />
@@ -6,6 +6,6 @@
   </block>
 </swiper>
 
-<view class="dots-box">
+<view class="dots-box own-class">
   <view class="dots {{currentIndex == index ? 'bg-333' : ''}}" wx:for="{{imgUrls}}"></view>
 </view>

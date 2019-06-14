@@ -1,2 +1,2 @@
 <!--index.wxml-->
-<Swiper/>  
+<Swiper imgUrls="{{imgUrls}}"/>  

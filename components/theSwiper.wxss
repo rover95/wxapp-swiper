@@ -32,11 +32,13 @@ page{
   transform: scale(1.3);
   transition: all .5s ease-in 0s;
   z-index: 20;
+  opacity: 1;
 }
 .common{
   transform: scale(1);
   transition: all .5s ease-in 0s;
   z-index: 0;
+  opacity: 0.4;
 }
 
 .dots-box{
