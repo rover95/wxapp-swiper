@@ -3,4 +3,4 @@
 
 如同少女肌肤般丝滑  
 
-![](https://raw.githubusercontent.com/rover95/image/master/gif/swiper.gif)
+![](https://raw.githubusercontent.com/rover95/image/master/gif/swiper2.gif)
